@@ -15,7 +15,7 @@ console.log(content);
 
 // Ticket 1c
 let list = document.getElementsByTagName('li');
-console.log(list);
+console.log(...list);
 
 // Ticket 1d
 let highlight = document.querySelector('.highlight');
@@ -36,11 +36,13 @@ console.log(childNodes);
 
 // Ticket 2c
 let children = itemList.children;
-console.log(itemList.children);
+console.log(children);
 
 // Ticket 2d
 let firstChild = itemList.firstChild;
 let lastChild = itemList.lastChild;
+console.log(firstChild);
+console.log(lastChild);
 
 // Ticket 2e
 let cherry = children[2];
@@ -88,7 +90,7 @@ hover.title = 'hover over me';
 
 //ticket 3e
 itemList.classList.add('styled-list');
-// itemList[1].classList.remove("list-item")
+// itemList[1].classList.remove('list-item');
 let bannana = children[1];
 bannana.classList.remove('list-item');
 
